@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { FaBars, FaTwitter } from 'react-icons/fa';
+import logo from './logo.svg';
+
+
 function App() {
-  return (
-    <>
-      <h2>navbar project setup</h2>
-    </>
-  )
+  return <>    <Navbar></Navbar>  </>
+   
+    
+
 }
 
 export default App
