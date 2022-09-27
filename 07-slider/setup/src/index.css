@@ -56,8 +56,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -157,7 +157,7 @@ Slider
   margin-top: 4rem;
   width: 80vw;
   /* have to have a height */
-  height: 450px;
+  height: 500px;
   max-width: 800px;
   text-align: center;
   position: relative;
@@ -236,8 +236,8 @@ article h4 {
 article {
   position: absolute;
   top: 0;
-  left: 0;  
-  width: 100%;  
+  left: 0;
+  width: 100%;
   height: 100%;
   /* opacity: 0; */
   transition: var(--transition);
@@ -247,10 +247,8 @@ article.activeSlide {
   transform: translateX(0);
 }
 article.lastSlide {
-
   transform: translateX(-100%);
 }
 article.nextSlide {
-
   transform: translateX(100%);
 }

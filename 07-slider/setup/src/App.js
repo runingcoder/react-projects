@@ -21,6 +21,7 @@ function App() {
     }, 5000);
     return () => {
       clearInterval(slider);
+      // remembers the last time you clicked and starts the slider from there.
     };
   }, [index]);
   return (
